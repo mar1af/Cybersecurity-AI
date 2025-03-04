@@ -1,0 +1,39 @@
+
+
+                                                           
+
+                                    Model  Accuracy     AUC  Recall   Prec.  \
+lightgbm  Light Gradient Boosting Machine    0.8892  0.9127  0.8892  0.8903   
+gbc          Gradient Boosting Classifier    0.8890  0.9100  0.8890  0.8901   
+xgboost         Extreme Gradient Boosting    0.8885  0.9109  0.8885  0.8883   
+rf               Random Forest Classifier    0.8816  0.8951  0.8816  0.8778   
+knn                K Neighbors Classifier    0.8752  0.8684  0.8752  0.8704   
+lr                    Logistic Regression    0.8749  0.8789  0.8749  0.8727   
+et                 Extra Trees Classifier    0.8735  0.8878  0.8735  0.8683   
+svm                   SVM - Linear Kernel    0.8707  0.0000  0.8707  0.8710   
+qda       Quadratic Discriminant Analysis    0.8620  0.8821  0.8620  0.8617   
+lda          Linear Discriminant Analysis    0.8513  0.8625  0.8513  0.8554   
+ridge                    Ridge Classifier    0.8336  0.0000  0.8336  0.8351   
+dt               Decision Tree Classifier    0.8247  0.7854  0.8247  0.8265   
+nb                            Naive Bayes    0.7683  0.7832  0.7683  0.7424   
+ada                  Ada Boost Classifier    0.7676  0.5768  0.7676  0.6438   
+dummy                    Dummy Classifier    0.7342  0.0000  0.7342  0.5391   
+
+              F1   Kappa     MCC  TT (Sec)  
+lightgbm  0.8803  0.6987  0.7168      1.04  
+gbc       0.8797  0.6979  0.7165     43.79  
+xgboost   0.8801  0.6988  0.7145      1.44  
+rf        0.8747  0.6861  0.6957     13.69  
+knn       0.8684  0.6705  0.6789      0.11  
+lr        0.8662  0.6627  0.6770      4.25  
+et        0.8680  0.6705  0.6760      5.50  
+svm       0.8596  0.6445  0.6654      3.54  
+qda       0.8555  0.6442  0.6511      0.04  
+lda       0.8387  0.5808  0.6076      0.05  
+ridge     0.8008  0.4849  0.5480      0.05  
+dt        0.8256  0.5734  0.5735      0.80  
+nb        0.7470  0.3750  0.3854      0.03  
+ada       0.6737  0.2222  0.3375      3.47  
+dummy     0.6217  0.0000  0.0000      0.02  
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
